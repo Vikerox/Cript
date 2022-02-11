@@ -1,0 +1,10 @@
+src/*.o
+
+*.sln
+*.vcxproj.*
+*.vcxproj
+x64/
+src/.vs/
+.vs/
+.vscode/
+src/CppProperties.json
