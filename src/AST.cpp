@@ -1,4 +1,5 @@
 #include "include/AST.hpp"
+#include <iostream>
 
 AST::AST ( AST_Type t )
 {
@@ -19,4 +20,5 @@ AST::AST ( AST_Type t )
 
 AST::~AST ()
 {
+	std::cout << "deleting " << static_cast<int>(type) << '\n';
 }

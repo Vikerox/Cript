@@ -28,12 +28,11 @@ int main(int argc, char **argv)
 	Token *token = nullptr;
 
 	Parser *parser = new Parser(lexer);
-	AST *root = parser->parse();
+	auto root = parser->parse();
 
-	Visitor *visitor = new Visitor();
+	auto visitor = std::shared_ptr<Visitor>(new Visitor());
 	visitor->visit(root);
-	delete visitor;
-	delete root;
+
 	delete parser;
 	delete lexer;
 	return 0;
