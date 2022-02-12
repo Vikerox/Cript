@@ -1,9 +1,9 @@
 #include <iostream>
 #include <string>
 #include <fstream>
-#include "include/lexer.hpp"
-#include "include/parser.hpp"
-#include "include/visitor.hpp"
+#include "include/Lexer.hpp"
+#include "include/Parser.hpp"
+#include "include/Visitor.hpp"
 
 std::string readFile(char *filepath);
 
