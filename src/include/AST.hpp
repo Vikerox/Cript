@@ -30,5 +30,6 @@ public:
 	std::vector<AST*> compound_value;
 
 	AST (AST_Type t);
+	~AST ();
 };
 

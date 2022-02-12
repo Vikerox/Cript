@@ -1,3 +1,0 @@
-var h = "hello ";
-var w = "world!";
-print(h, w);

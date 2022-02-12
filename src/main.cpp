@@ -24,7 +24,6 @@ int main(int argc, char **argv)
 	default:
 		break;
 	}
-
 	Lexer *lexer = new Lexer(input);
 	Token *token = nullptr;
 

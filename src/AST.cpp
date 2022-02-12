@@ -16,3 +16,7 @@ AST::AST ( AST_Type t )
 
 	compound_value = {};
 }
+
+AST::~AST ()
+{
+}
